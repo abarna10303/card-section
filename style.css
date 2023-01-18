@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 85%;
+    margin: 50px auto;
+}
+.row
+{
+    display: flex;
+}
+.card-col{
+    width: 30%;
+}
+
+.cards img{
+    width: 100%;
+}
+.card-content
+{
+    padding: 20px;
+    background-color: lightgreen;
+    color: white;
+}
+ul li{
+    list-style-type: none;
+    line-height: 2;
+}
+ul li i{
+    color: black;
+    display: inline-block;
+    margin-right: 15px;
+}
+.car-btn{
+    margin-bottom: 10px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    display: inline-block;
+}
+.rate-cont
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.btns button{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-left: 5px;
+    border-radius: 50%;
+    border: none;
+}
+.add-card i{
+   margin-right: 15px;
+   display: inline-block;
+}
+.add-card{
+    margin:20px 0px;
+    background-color: black;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
